@@ -1,0 +1,39 @@
+#include<iostream>
+#include<math.h>
+using namespace std;
+
+long long i,j,k,l,m;
+long long a=0, b;
+long long N = 100;
+int M=10;
+int main()
+{
+	m = 0;
+	for(l=0; l<N; l++)
+	{
+		m = m + l;
+		cout << "Number: "<< l<< "Triangularised"<< m<< "\n";
+	}
+	
+}
+
+
+/*{
+	for(j=1; j<M+1; j = j+k)
+	{
+		b = 0;
+		for(i=1; i<=sqrt(j); i++)
+		{
+			if(m % i==0)
+			{
+				b = b + 2;
+			}
+		}
+			cout <<"Triangle: "<< m<<" Number: "<<j<< " Number of Divisors: " << b <<"\n";		
+	
+		}
+	
+}*/
+	
+	
+
